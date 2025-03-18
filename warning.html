@@ -1,0 +1,37 @@
+<html>
+    <style>
+    html{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQd4uiznexIjrpYyVB4JMX5vtaKiLc-Seq7X8BkgzDCezJSxWTytx6Qw&s=10');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        div{
+            background-color: white;
+            width: auto;
+            height:auto;
+            border-radius: 10px;
+        }
+        h1{
+            font-family: Arial;
+        }
+    </style>
+    <center><br><br>
+    <div>
+    <img src="https://i.ibb.co/HTK1jLyt/mtb-logo-png.png" width="150" height="160">
+    <br>
+    <h1>
+       Please enter your roll number to view your result.
+    </h1>
+    <form onsubmit="myFunction();return false">
+  <input name="gr" id="gr">
+</form>
+<script>
+ function myFunction(){
+    var gr = document.getElementById('gr').value;
+    window.location = "https://mtb.edu.pk/results/index.php?gr_no=C-"+gr;
+  }
+</script>
+<br><br><br>
+</center>
+</div>
+</html>
