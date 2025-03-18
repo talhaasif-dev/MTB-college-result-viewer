@@ -1,7 +1,7 @@
 <html>
     <style>
     html{
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQd4uiznexIjrpYyVB4JMX5vtaKiLc-Seq7X8BkgzDCezJSxWTytx6Qw&s=10');
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH0jlVlQExVNRWvpz7KJIsefvC--AS5iQZhdRhYusDXkThqQK7pxqcdLdv&s=10');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -13,18 +13,23 @@
         }
         h1{
             font-family: Arial;
+            font-size:50;
+        }
+        input{
+            width: 400;
+            height:auto;
         }
     </style>
     <center><br><br>
     <div>
-    <img src="https://i.ibb.co/HTK1jLyt/mtb-logo-png.png" width="150" height="160">
+    <img src="https://i.ibb.co/HTK1jLyt/mtb-logo-png.png" width="250" height="260">
     <br>
     <h1>
-       Please enter your roll number to view your result.
+       Please enter your roll number<br>to view your result.
     </h1>
     <form onsubmit="myFunction();return false">
-        <p>Enter your numbers after 'C-'</p>
-  <input name="gr" id="gr">
+        <p>*Enter Nunbers after 'C-'</p>
+  <input name="gr" id="gr" placeholder="C-XXXXX">
 </form>
 <script>
  function myFunction(){
