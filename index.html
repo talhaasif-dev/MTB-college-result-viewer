@@ -28,13 +28,13 @@
        Please enter your roll number<br>to view your result.
     </h1>
     <form onsubmit="myFunction();return false">
-        <p>*Enter Nunbers after 'C-'</p>
+        <p>*Please Enter your GR number and press enter</p>
   <input name="gr" id="gr" placeholder="C-XXXXX">
 </form>
 <script>
  function myFunction(){
     var gr = document.getElementById('gr').value;
-    window.location = "https://mtb.edu.pk/results/index.php?gr_no=C-"+gr;
+    window.location = "https://mtb.edu.pk/results/index.php?gr_no="+gr;
   }
 </script>
 <br><br><br>
